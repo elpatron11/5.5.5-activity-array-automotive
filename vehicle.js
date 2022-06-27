@@ -62,15 +62,15 @@ class Vehicle {
         decelerate();
     }
 
-    autoPark()
-    {
+    // autoPark()
+    // {
 
-    }
+    // }
 
-    autoDrive()
-    {
+    // autoDrive()
+    // {
       
-    }
+    // }
 
     typeOfVehicle(wheels) {
         if (this.numberOfWheels == 8 && 8 == wheels) {
@@ -83,8 +83,11 @@ class Vehicle {
             console.log("Unknown type of vehicle");
         }
     }
+   
 }
+//  console.log
 
+//  export {Vehicle};
 //This exports things you want to use from this "module", more info in readme
 module.exports = {
     Vehicle
